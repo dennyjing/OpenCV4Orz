@@ -5,125 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="legolas">
+    <meta name="description" content="Homework for DMP">
+    <meta name="author" content="Chen Guanjing @ SJTU">
 
-    <title>OpenCV4Orz</title>
+    <title>WebCV</title>
     <style type="text/css">
-   /*
- * Base structure
- */
+    /*
+     * Base structure
+     */
 
-/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-top: 50px;
-}
-
-
-/*
- * Global add-ons
- */
-
-.sub-header {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
-}
-
-/*
- * Top navigation
- * Hide default border to remove 1px line.
- */
-.navbar-fixed-top {
-  border: 0;
-}
-
-/*
- * Sidebar
- */
-
-/* Hide for mobile, show later */
-.sidebar {
-  display: none;
-}
-@media (min-width: 768px) {
-  .sidebar {
-    position: fixed;
-    top: 51px;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-    display: block;
-    padding: 20px;
-    overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: #f5f5f5;
-    border-right: 1px solid #eee;
-  }
-}
-
-/* Sidebar navigation */
-.nav-sidebar {
-  margin-right: -21px; /* 20px padding + 1px border */
-  margin-bottom: 20px;
-  margin-left: -20px;
-}
-.nav-sidebar > li > a {
-  padding-right: 20px;
-  padding-left: 20px;
-}
-.nav-sidebar > .active > a,
-.nav-sidebar > .active > a:hover,
-.nav-sidebar > .active > a:focus {
-  color: #fff;
-  background-color: #428bca;
-}
+    /* Move down content because we have a fixed navbar that is 50px tall */
+    body {
+      padding-top: 50px;
+    }
 
 
-/*
- * Main content
- */
+    /*
+     * Global add-ons
+     */
 
-.main {
-  padding: 20px;
-}
-@media (min-width: 768px) {
-  .main {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-}
-.main .page-header {
-  margin-top: 0;
-}
+    .sub-header {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    /*
+     * Top navigation
+     * Hide default border to remove 1px line.
+     */
+    .navbar-fixed-top {
+      border: 0;
+    }
+
+    /*
+     * Sidebar
+     */
+
+    /* Hide for mobile, show later */
+    .sidebar {
+      display: none;
+    }
+    @media (min-width: 768px) {
+      .sidebar {
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background-color: #f5f5f5;
+        border-right: 1px solid #eee;
+      }
+    }
+
+    /* Sidebar navigation */
+    .nav-sidebar {
+      margin-right: -21px; /* 20px padding + 1px border */
+      margin-bottom: 20px;
+      margin-left: -20px;
+    }
+    .nav-sidebar > li > a {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    .nav-sidebar > .active > a,
+    .nav-sidebar > .active > a:hover,
+    .nav-sidebar > .active > a:focus {
+      color: #fff;
+      background-color: #428bca;
+    }
 
 
-/*
- * Placeholder dashboard ideas
- */
+    /*
+     * Main content
+     */
 
-.placeholders {
-  margin-bottom: 30px;
-  text-align: center;
-}
-.placeholders h4 {
-  margin-bottom: 0;
-}
-.placeholder {
-  margin-bottom: 20px;
-}
-.placeholder img {
-  display: inline-block;
-  border-radius: 50%;
-}
+    .main {
+      padding: 20px;
+    }
+    @media (min-width: 768px) {
+      .main {
+        padding-right: 40px;
+        padding-left: 40px;
+      }
+    }
+    .main .page-header {
+      margin-top: 0;
+    }
+
+
+    /*
+     * Placeholder dashboard ideas
+     */
+
+    .placeholders {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .placeholders h4 {
+      margin-bottom: 0;
+    }
+    .placeholder {
+      margin-bottom: 20px;
+    }
+    .placeholder img {
+      display: inline-block;
+      border-radius: 50%;
+    }
 
 
     </style>
 
-    <link rel="stylesheet" href="/statics/css/bootstrap.min.css">
-    <script src="/statics/js/jquery-2.1.1.min.js"></script>
-    <script src="/statics/js/bootstrap.min.js"></script>
-    <script src="http://rawgit.com/briangonzalez/rgbaster.js/master/rgbaster.js"></script>
-
+<link rel="stylesheet" href="/statics/css/bootstrap.min.css">
+<script src="/statics/js/jquery-2.1.1.min.js"></script>
+<script src="/statics/js/bootstrap.min.js"></script>
+<script src="http://rawgit.com/briangonzalez/rgbaster.js/master/rgbaster.js"></script>
 
 </head>
 
@@ -140,11 +139,11 @@ body {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">OpenCV4Orz</a>
+            <a class="navbar-brand" href="/">WebCV : Online Image Processing</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a>legolas</a></li>
+                <li><a>Chen Guanjing @ SJTU</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
@@ -153,124 +152,380 @@ body {
 
 <div class="container">
 
-    <form action="." method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        <!--{{ form.as_ul }}-->
+  <form action="." method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <!--{{ form.as_ul }}-->
+      <class="form-inline">
+          <h4>上传图像 Upload Image</h4> {{ form.image_file }} <br><br>
 
-        <li class="form-inline">
-            {{ form.image_file.label_tag }}{{ form.image_file }}
-        </li>
-        <li class="form-inline">
-            {{ form.histogram.label_tag }} {{ form.histogram }}
-        </li>
-        <li class="form-inline">
-            {{ form.greyscale.label_tag }} {{ form.greyscale }}
-        </li>
-        <li class="form-inline">
-            {{ form.binary_threshold.label_tag }} {{ form.binary_threshold }} {{ form.binary_threshold_threshold.label_tag }} {{ form.binary_threshold_threshold }}
-        </li>
-        <li class="form-inline">
-            {{ form.smoothen.label_tag }} {{ form.smoothen }} {{ form.smoothen_kernel_array.label_tag }}{{ form.smoothen_kernel_array }}
-        </li>
-        <li class="form-inline">
-            {{ form.canny.label_tag }} {{ form.canny }} {{ form.canny_threshold.label_tag }} {{ form.canny_threshold }}
-        </li>
-        <li class="form-inline">
-            {{ form.roberts.label_tag }} {{ form.roberts }}
-        </li>
-        <li class="form-inline">
-            {{ form.prewitt.label_tag }} {{ form.prewitt }}
-        </li>
-        <li class="form-inline">
-            {{ form.sobelfilter.label_tag }} {{ form.sobelfilter }} {{ form.sobel_ksize.label_tag }}{{ form.sobel_ksize }}
-        </li>
-        <li class="form-inline">
-            {{ form.gaussian_blur.label_tag }} {{ form.gaussian_blur }} {{ form.gaussian_ksize.label_tag }}{{ form.gaussian_ksize }} {{ form.gaussian_sigmaX.label_tag }}{{ form.gaussian_sigmaX }}
-        </li>
-        <li class="form-inline">
-            {{ form.median_blur.label_tag  }} {{ form.median_blur }} {{ form.median_blur_ksize.label_tag }}{{ form.median_blur_ksize }}
-        </li>
-        <li class="form-inline">
-            {{ form.average_blur.label_tag  }} {{ form.average_blur }} {{ form.average_blur_ksize.label_tag }}{{ form.average_blur_ksize }}
-        </li>
-        <li class="form-inline">
-            {{ form.dilate.label_tag }} {{ form.dilate }} {{ form.dilate_ksize.label_tag }}{{ form.dilate_ksize }}
-        </li>
-        <li class="form-inline">
-            {{ form.erode.label_tag }} {{ form.erode }} {{ form.erode_ksize.label_tag }}{{ form.erode_ksize }}
-        </li>
-        <li class="form-inline">
-            {{ form.open.label_tag }} {{ form.open }} {{ form.opend_ksize.label_tag }} {{ form.opend_ksize }}
-        </li>
-        <li class="form-inline">
-            {{ form.close.label_tag }} {{ form.close }} {{ form.closed_ksize.label_tag }} {{ form.closed_ksize }}
-        </li>
-        <li class="form-inline">
-            {{ form.otsu.label_tag }} {{ form.otsu }}
-        </li>
+  <ul id="myTab" class="nav nav-tabs">
+     <li class="active">
+        <a href="#home" data-toggle="tab">
+           基本操作
+        </a>
+     </li>
+     <li>
+        <a href="#edge" data-toggle="tab">
+           卷积操作
+        </a>
+     </li>
+     <li>
+       <a href="#morph" data-toggle="tab">
+          形态学处理
+       </a>
+     </li>
+     <li>
+       <a href="#thresh" data-toggle="tab">
+          阈值处理
+       </a>
+     </li>
+  </ul>
 
+  <div id="myTabContent" class="tab-content">
+     <div class="tab-pane fade in active" id="home"> <br>
+        <p>
+          <div class="row" >
+             <div class="col-xs-3">
+                <p>
+                  <class="form-inline">
+                    {{ form.histogram }} &nbsp直方图分析
+                </p>
+             </div>
+           </div>
+           <div class="row" >
+              <div class="col-xs-3">
+                 <p>
+                   <class="form-inline">
+                     {{ form.hist_equalize }} &nbsp直方图均衡
+                 </p>
+              </div>
+            </div>
+           <div class="row" >
+              <div class="col-xs-3">
+                 <p>
+                   <class="form-inline">
+                     {{ form.greyscale }} &nbsp转换为灰度图像
+                 </p>
+              </div>
+            </div>
 
-        <input type="button" value="preview" onclick="upload_img()"/>
-        <input type="submit" value="Submit"/>
+          <div class="row" >
+             <div class="col-xs-3">
+                <p>
+                  <class="form-inline">
+                    {{ form.single_threshold }} &nbsp转换为二值图像
+                </p>
+             </div>
+
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-3">
+                <p>
+                  <class="form-inline">
+                    {{ form.shift }} &nbsp平移图像
+                </p>
+             </div>
+             <div class="col-xs-4">
+                <p>
+                  坐标值（x, y）&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp {{ form.shift_coords }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-3">
+                <p>
+                  <class="form-inline">
+                    {{ form.rotation }} &nbsp旋转图像
+                </p>
+             </div>
+             <div class="col-xs-4">
+                <p>
+                  旋转角度（degree） {{ form.rotation_degree }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-3">
+                <p>
+                  <class="form-inline">
+                    {{ form.scale_area }} &nbsp缩放图像（最近邻插值）
+                </p>
+             </div>
+             <div class="col-xs-4">
+                <p>
+                  缩放比例（ratio）&nbsp&nbsp&nbsp&nbsp {{ form.scale_area_ratio }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-3">
+                <p>
+                  <class="form-inline">
+                    {{ form.scale_linear }} &nbsp缩放图像（双线性插值）
+                </p>
+             </div>
+             <div class="col-xs-4">
+                <p>
+                  缩放比例（ratio）&nbsp&nbsp&nbsp&nbsp {{ form.scale_linear_ratio }}
+                </p>
+             </div>
+          </div>
+        </p>
+     </div>
+
+     <div class="tab-pane fade" id="edge"> <br>
+        <p>
+          <div class="row" >
+             <div class="col-xs-4">
+                <p>
+                  <class="form-inline">
+                    {{ form.roberts }} &nbspRoberts 算子
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-4">
+                <p>
+                  <class="form-inline">
+                    {{ form.prewitt }} &nbspPrewitt 算子
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.sobel }} &nbspSobel 算子
+                </p>
+             </div>
+             <div class="col-xs-6">
+                <p>
+                  掩膜（kernel）&nbsp&nbsp&nbsp&nbsp&nbsp {{ form.sobel_ksize }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.canny }} &nbspCanny 算子
+                </p>
+             </div>
+             <div class="col-xs-6">
+                <p>
+                  阈值（threshold） {{ form.canny_threshold }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.gaussian_blur }} &nbsp高斯滤波
+                </p>
+             </div>
+             <div class="col-xs-4">
+                <p>
+                  掩膜（kernel）&nbsp&nbsp&nbsp&nbsp&nbsp {{ form.gaussian_ksize }}
+                </p>
+             </div>
+             <div class="col-xs-4">
+                <p>
+                  方差（sigma）&nbsp&nbsp{{ form.gaussian_sigmaX }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.average_blur }} &nbsp均值滤波
+                </p>
+             </div>
+             <div class="col-xs-6">
+                <p>
+                  掩膜（kernel）&nbsp&nbsp&nbsp&nbsp&nbsp {{ form.average_blur_ksize }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.median_blur }} &nbsp中值滤波
+                </p>
+             </div>
+             <div class="col-xs-6">
+                <p>
+                  掩膜（kernel）&nbsp&nbsp&nbsp&nbsp&nbsp {{ form.median_blur_ksize }}
+                </p>
+             </div>
+          </div>
+
+        </p>
+     </div>
+     <div class="tab-pane fade" id="morph"> <br>
+        <p>
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.dilate_binary }} &nbsp二值膨胀
+                </p>
+             </div>
+             <div class="col-xs-6">
+                <p>
+                  掩膜（kernel）&nbsp {{ form.dilate_binary_ksize }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.erode_binary }} &nbsp二值腐蚀
+                </p>
+             </div>
+             <div class="col-xs-6">
+                <p>
+                  掩膜（kernel）&nbsp {{ form.erode_binary_ksize }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.open_binary }} &nbsp二值开运算
+                </p>
+             </div>
+             <div class="col-xs-6">
+                <p>
+                  掩膜（kernel）&nbsp {{ form.opend_binary_ksize }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.close_binary }} &nbsp二值闭运算
+                </p>
+             </div>
+             <div class="col-xs-6">
+                <p>
+                  掩膜（kernel）&nbsp {{ form.closed_binary_ksize }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.dilate }} &nbsp灰度膨胀
+                </p>
+             </div>
+             <div class="col-xs-6">
+                <p>
+                  掩膜（kernel）&nbsp {{ form.dilate_ksize }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.erode }} &nbsp灰度腐蚀
+                </p>
+             </div>
+             <div class="col-xs-6">
+                <p>
+                  掩膜（kernel）&nbsp {{ form.erode_ksize }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.open }} &nbsp灰度开运算
+                </p>
+             </div>
+             <div class="col-xs-6">
+                <p>
+                  掩膜（kernel）&nbsp {{ form.opend_ksize }}
+                </p>
+             </div>
+          </div>
+
+          <div class="row" >
+             <div class="col-xs-2">
+                <p>
+                  <class="form-inline">
+                    {{ form.close }} &nbsp灰度闭运算
+                </p>
+             </div>
+             <div class="col-xs-6">
+                <p>
+                  掩膜（kernel）&nbsp {{ form.closed_ksize }}
+                </p>
+             </div>
+          </div>
+        </p>
+     </div>
+
+      <div class="tab-pane fade" id="thresh"> <br>
+         <p>
+           <div class="row" >
+            <div class="col-xs-2">
+               <p>
+                 <class="form-inline">
+                   {{ form.binary_threshold }} &nbsp单阈值
+               </p>
+            </div>
+            <div class="col-xs-4">
+               <p>
+                 阈值（threshold）&nbsp&nbsp&nbsp {{ form.binary_threshold_threshold }}
+               </p>
+            </div>
+         </p>
+       </div>
+          <div class="row" >
+           <div class="col-xs-2">
+              <p>
+                <class="form-inline">
+                  {{ form.otsu }} &nbspOtsu阈值
+              </p>
+           </div>
+        </p>
+      </div>
+  </div>
+</div>
+
+    <br><br>
+    <input type="submit" value="Process"/>
     </form>
     <br>
-    <img src="" id="img_id" style="display:none" width="500" height="309">
 
 </div> <!-- /container -->
 
-<br> <br>
 
-
-<script type="text/javascript">
-
-$(document).ready(function() {
-    //set initial state.
-    $('#textbox1').val($(this).is(':checked'));
-
-    $('#checkbox1').change(function() {
-        if($(this).is(":checked")) {
-            var returnVal = confirm("Are you sure?");
-            $(this).attr("checked", returnVal);
-        }
-        $('#textbox1').val($(this).is(':checked'));        
-    });
-        var img = document.getElementById('img_id');
-    // 或者
-    RGBaster.colors(img, {
-      success: function(payload) {
-        // payload.dominant是主色，RGB形式表示
-        // payload.secondary是次色，RGB形式表示
-        // payload.palette是调色板，含多个主要颜色，数组
-        console.log(payload.dominant);
-        console.log(payload.secondary);
-        console.log(payload.palette);
-      }
-    });
-});
-
-
-        function upload_img() {
-          document.getElementById("img_id").style.display = "block"
-          
-          input = document.getElementById("id_image_file")
-
-
-          console.log(input)
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
-
-                reader.onload = function (e) {
-                    $('#img_id').attr('src', e.target.result);
-                }
-
-                reader.readAsDataURL(input.files[0]);
-            }
-        }
-
-
-
-
-</script>
 
 </body>
 </html>

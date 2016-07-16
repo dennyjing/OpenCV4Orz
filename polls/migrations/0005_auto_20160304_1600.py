@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='document',
-            name='sobelfilter',
+            name='sobel',
             field=models.BooleanField(default=False),
         ),
     ]
